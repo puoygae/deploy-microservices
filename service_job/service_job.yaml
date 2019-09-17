@@ -1,0 +1,6 @@
+service: service-job
+runtime: python37
+
+handlers:
+- url: /.*
+  script: auto

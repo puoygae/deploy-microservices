@@ -1,0 +1,6 @@
+dispatch:
+  - url: "*/favicon.ico"
+    service: default
+
+  - url: "*/job*"
+    service: service-job
